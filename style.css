@@ -83,7 +83,10 @@ body {
     font-family: Roboto;
     font-style: normal;
     /* letter-spacing: 2px; */
-    word-spacing: 10px;
+/*     word-spacing: 10px; */
+       font-size: 20px;
+    /* letter-spacing: 2px; */
+    word-spacing: 5px;
     /* text-align: center; */
 }
 
@@ -132,13 +135,13 @@ body {
     font-family: Playfair Display;
     font-style: normal;
     font-weight: normal;
-    font-size: 26px;
+    font-size: 36px;
     line-height: 48px;
     /* display: flex; */
     align-items: center;
     text-align: center;
     color: #000000;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 
 }
 
