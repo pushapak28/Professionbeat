@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans',
+        sans-serif;
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+:root {
+    --dark-color: #000000;
+    --light-color: #f1faee;
+    --primary-color: #ee9b00;
+}
+
+.warning {
+    background-color: #EB983CDE;
+    width: 100%;
+}
+
+.topnav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.navigation {
+    margin-bottom: 2em;
+}
+
+.booknow {
+    margin-right: 25px;
+}
+
+/* p.text-center {
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+} */
+.header-content {
+    font-size: 1em;
+}
+
+.header2-text {
+    position: absolute;
+    width: 462px;
+    height: 64px;
+    left: 89px;
+    top: 827px;
+
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.header2-writer {
+    font-size: 0.75em;
+}
+
+.header3-text {
+    display: d-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+.header3p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    /* letter-spacing: 2px; */
+    word-spacing: 10px;
+    /* text-align: center; */
+}
+
+.card {
+    background-color: #ffffff;
+}
+
+.card-title {
+    background: #3371AA;
+    /* position: absolute; */
+    width: 100%;
+    color: #ffffff;
+
+    margin: 0;
+
+    /* padding: 5px; */
+}
+
+.card-title .head {
+    padding: 15px;
+    font-weight: bold;
+}
+
+.exploreprograms {
+    display: d-flex;
+    flex-direction: row;
+    justify-content: center;
+
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    padding: 10px;
+    /* position: absolute; */
+    background: #F48C51;
+    border-radius: 10px;
+
+}
+
+.bookslot {
+    font-weight: bold;
+    padding: 20px;
+}
+
+.bottomquote {
+
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 48px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    letter-spacing: 3px;
+
+}
+
+.enquire {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+
+}
+
+/* footer */
+@media (min-width: 768px) {
+    [x-show="open"] {
+        display: block !important;
+    }
+}
+
+/* IF YOU DONT WANT TO USE ALPINE */
+
+/* @media (max-width: 767px) {
+  .collapsible:after {
+    content: "\002B";
+    color: rgba(156, 163, 175, var(--tw-text-opacity));
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .active:after {
+    content: "\2212";
+  }
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+}
+ */
+
+
+
+
+/* footer */
